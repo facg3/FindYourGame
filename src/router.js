@@ -14,8 +14,6 @@ const router = (request, response) => {
 
     handlers.getGame(request, response)
     }
-
-
   else {
     response.writeHead(404);
     response.end("PAGE NOT FOUND!!!!!!!!!!");

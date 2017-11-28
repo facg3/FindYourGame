@@ -1,6 +1,5 @@
 const fs = require('fs');
 const path = require('path');
-const games = require("./games.json");
 const querystring = require('querystring');
 
 const homepage = (request, response) =>{
@@ -9,12 +8,12 @@ const homepage = (request, response) =>{
       response.writeHead(500, {"content-type":"text/html"});
       response.end("<h1 style = 'text-align: center;'>SERVER ERROR</h1>");}
   else {
-  response.writeHead(200, {"content-type":"text/html"})
+  response.writeHead(200, {"content-type":"text/html"
+});
   response.end(file);
-
-
-
-}})}
+}
+});
+}
 
 const handler = (request, response) => {
 
@@ -33,17 +32,16 @@ const handler = (request, response) => {
       response.end("<h1 style = 'text-align: center;'>SERVER ERROR</h1>");
     }
     else {
-      response.writeHead(200, "Content-Type:" + fileType[extension])
+      response.writeHead(200, "Content-Type:" + filetype[extension])
       response.end(file);
     }
   });
   }
 
 const getGame = (request, response) => {
-
-  var allGame= '';
+  var name=request.game;
+  console.log(name);
     request.on('data', function (chunkOfData) {
-
         allGame += chunkOfData;
     });
     request.on('end', function () {
@@ -56,14 +54,13 @@ const getGame = (request, response) => {
       }
       response.end();
     });
-  }
+  });
 
-  console.log(games);
+}
 
 
 
   module.exports = {
     homepage,
-    handler,
-    getGame
-  }
+    handler
+    }
