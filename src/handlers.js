@@ -39,28 +39,30 @@ const handler = (request, response) => {
   }
 
 const getGame = (request, response) => {
-  var name=request.game;
-  console.log(name);
+  var allGame = "";
     request.on('data', function (chunkOfData) {
         allGame += chunkOfData;
     });
     request.on('end', function () {
-    var convertedData = querystring.parse(allGame);
+    console.log("ALLGAME " , allGame);
     response.writeHead(302, {'Location': '/'});
-    fs.readFile(path.join(__dirname , 'games.json'), function(error, game) {
-      if (error) {
-        console.log(error);
-        return;
+    fs.readFile(path.join(__dirname , 'games.json'), "utf-8",function(err,files){
+      if(err){
+        console.log(err);
+      }else{
+        console.log(files);
       }
+    })
+    // console.log(typeof gamesjson)
+    // var game = gamesjson;
       response.end();
     });
-  });
-
-}
+  };
 
 
 
   module.exports = {
     homepage,
-    handler
+    handler,
+    getGame
     }
