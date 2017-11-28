@@ -10,7 +10,7 @@ const router = (request, response) => {
     handlers.handler(request, response);
   }
 
-  else if (url.startsWith("/getgame")){
+  else if (url === "/getgame"){
 
     handlers.getGame(request, response)
     }
