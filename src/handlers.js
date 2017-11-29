@@ -44,31 +44,26 @@ const getGame = (request, response) => {
         allGame += chunkOfData;
     });
     request.on('end', function () {
-    console.log("ALLGAME " , allGame);
-    response.writeHead(302, {'Location': '/'});
+    // console.log("ALLGAME " , allGame);
+    // response.writeHead(200);
     fs.readFile(path.join(__dirname , 'games.json'),function(err,files){
       if(err){
-        console.log('qqqqq',err);
+        console.log(err);
       }else{
-        console.log('qqqqqqqqq');
-        // console.log(files);
         var filter = allGame.toUpperCase();
         var obj = JSON.parse(files);
-        console.log('qw',obj[0].name);
-        // console.log("hi",obj[1]);
-        // for (i = 0; i < files.length; i++) {
-        //   var listgame=['walaa'];
-        // var game = files[i];
-        // console.log(game);
-        // if (game.toUpperCase().indexOf(filter) > -1) {
-        //   listgame.push(game);
-        //   console.log(listgame);
-        // }}
-
-
+        var listgame = [];
+        for (var i = 0; i<obj.length;i++){
+          var game = obj[i].name;
+          if(game.toUpperCase().startsWith(filter)){
+            listgame.push(game);
+          }
+        }
+        console.log('wwww',listgame);
+        response.end(JSON.stringify(listgame));
       }
     })
-      response.end();
+
     });
   };
 
