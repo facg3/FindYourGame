@@ -1,165 +1,158 @@
-{[
+[
 {
-name: "Dedicated Server"
+"name": "Steam Client"
+},{
+"name": "winui2"
 },
 {
-name: "Steam Client"
+"name": "Counter-Strike"
 },
 {
-name: "winui2"
+"name": "Team Fortress Classic"
 },
 {
-name: "Counter-Strike"
+"name": "Day of Defeat"
 },
 {
-name: "Team Fortress Classic"
+"name": "Deathmatch Classic"
 },
 {
-name: "Day of Defeat"
+"name": "Half-Life: Opposing Force"
 },
 {
-name: "Deathmatch Classic"
+"name": "Ricochet"
 },
 {
-name: "Half-Life: Opposing Force"
+"name": "Half-Life"
 },
 {
-name: "Ricochet"
+"name": "Counter-Strike: Condition Zero"
 },
 {
-name: "Half-Life"
+"name": "Half-Life Dedicated Server"
 },
 {
-name: "Counter-Strike: Condition Zero"
+"name": "Codename Gordon"
 },
 {
-name: "Half-Life Dedicated Server"
+"name": "Counter-Strike: Condition Zero Deleted Scenes"
 },
 {
-name: "Codename Gordon"
+"name": "Half-Life: Blue Shift"
 },
 {
-name: "Counter-Strike: Condition Zero Deleted Scenes"
+"name": "Counter-Strike Steamworks Beta"
 },
 {
-name: "Half-Life: Blue Shift"
+"name": "Source Dedicated Server"
 },
 {
-name: "Counter-Strike Steamworks Beta"
+"name": "Source Dedicated Server"
 },
 {
-name: "Source Dedicated Server"
+"name": "Source SDK"
 },
 {
-name: "Source Dedicated Server"
+"name": "Source SDK Base 2006"
 },
 {
-name: "Source SDK"
+"name": "Source SDK Base 2007"
 },
 {
-name: "Source SDK Base 2006"
+"name": "Half-Life 2: Demo"
 },
 {
-name: "Source SDK Base 2007"
+"name": "Half-Life 2"
 },
 {
-name: "Half-Life 2: Demo"
+"name": "Counter-Strike: Source"
 },
 {
-name: "Half-Life 2"
+"name": "Counter-Strike: Source Beta"
 },
 {
-name: "Counter-Strike: Source"
+"name": "Half-Life: Source"
 },
 {
-name: "Counter-Strike: Source Beta"
+"name": "Day of Defeat: Source"
 },
 {
-name: "Half-Life: Source"
+"name": "Day of Defeat: Source Press Review"
 },
 {
-name: "Day of Defeat: Source"
+"name": "Source 2007 Dedicated Server"
 },
 {
-name: "Day of Defeat: Source Press Review"
+"name": "Half-Life 2: Deathmatch"
 },
 {
-name: "Source 2007 Dedicated Server"
+"name": "Half-Life 2: Lost Coast"
 },
 {
-name: "Half-Life 2: Deathmatch"
+"name": "Half-Life Deathmatch: Source"
 },
 {
-name: "Half-Life 2: Lost Coast"
+"name": "HL1:MP Linux client"
 },
 {
-name: "Half-Life Deathmatch: Source"
+"name": "Half-Life 2: Episode One"
 },
 {
-name: "HL1:MP Linux client"
+"name": "Portal"
 },
 {
-name: "Half-Life 2: Episode One"
+"name": "Portal: First Slice"
 },
 {
-name: "Portal"
+"name": "Half-Life 2: Episode Two"
 },
 {
-name: "Portal: First Slice"
+"name": "Team Fortress 2"
 },
 {
-name: "Half-Life 2: Episode Two"
+"name": "Team Fortress 2 - Summer 2012 Community Bundle DLC"
 },
 {
-name: "Team Fortress 2"
+"name": "Team Fortress 2 - Summer 2012 Sale Bundle DLC"
 },
 {
-name: "Team Fortress 2 - Summer 2012 Community Bundle DLC"
+"name": "Team Fortress 2 - Summer 2011 DLC"
 },
 {
-name: "Team Fortress 2 - Summer 2012 Sale Bundle DLC"
+"name": "Team Fortress 2 - Premium DLC"
 },
 {
-name: "Team Fortress 2 - Summer 2011 DLC"
+"name": "Spacewar"
 },
 {
-name: "Team Fortress 2 - Premium DLC"
+"name": "Left 4 Dead"
 },
 {
-name: "Spacewar"
+"name": "Left 4 Dead Dedicated Server"
 },
 {
-name: "Left 4 Dead"
+"name": "Left 4 Dead Authoring Tools"
 },
 {
-name: "Left 4 Dead Dedicated Server"
+"name": "Team Fortress 2 Beta"
 },
 {
-name: "Left 4 Dead Authoring Tools"
+"name": "Left 4 Dead Demo"
 },
 {
-name: "Team Fortress 2 Beta"
+"name": "Left 4 Dead Demo Dedicated Server"
 },
 {
-name: "Left 4 Dead Demo"
+"name": "Left 4 Dead 2"
 },
 {
-name: "Left 4 Dead Demo Dedicated Server"
+"name": "Left 4 Dead 2 Dedicated Server"
 },
 {
-name: "Left 4 Dead 2"
+"name": "Left 4 Dead 2 Authoring Tools"
 },
 {
-name: "Left 4 Dead 2 Dedicated Server"
-},
-{
-name: "Left 4 Dead 2 Authoring Tools"
-},
-{
-name: "Left 4 Dead 2 Add-on Support"
-},
-{
-name: "Left 4 Dead 2 Preorder DLC"
-}
+"name": "Left 4 Dead 2 Add-on Support"
+},{
+  "name" : "Left 4 Dead 2 Preorder DLC"}
 ]
-}

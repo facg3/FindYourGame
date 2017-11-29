@@ -46,15 +46,28 @@ const getGame = (request, response) => {
     request.on('end', function () {
     console.log("ALLGAME " , allGame);
     response.writeHead(302, {'Location': '/'});
-    fs.readFile(path.join(__dirname , 'games.json'), "utf-8",function(err,files){
+    fs.readFile(path.join(__dirname , 'games.json'),function(err,files){
       if(err){
-        console.log(err);
+        console.log('qqqqq',err);
       }else{
-        console.log(files);
+        console.log('qqqqqqqqq');
+        // console.log(files);
+        var filter = allGame.toUpperCase();
+        var obj = JSON.parse(files);
+        console.log('qw',obj[0].name);
+        // console.log("hi",obj[1]);
+        // for (i = 0; i < files.length; i++) {
+        //   var listgame=['walaa'];
+        // var game = files[i];
+        // console.log(game);
+        // if (game.toUpperCase().indexOf(filter) > -1) {
+        //   listgame.push(game);
+        //   console.log(listgame);
+        // }}
+
+
       }
     })
-    // console.log(typeof gamesjson)
-    // var game = gamesjson;
       response.end();
     });
   };
