@@ -1,6 +1,6 @@
 ## Games Finder
 
-View our app using [Heroku Pages](fac-gamefinder.herokuapp.com)
+View our app using [Heroku Pages](https://fac-gamefinder.herokuapp.com/)
 
 ## Who are we:
 -Hanan Qwaider.
