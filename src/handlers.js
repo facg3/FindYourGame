@@ -57,7 +57,6 @@ const getGame = (request, response) => {
             listgame.push(game);
           }
         }
-        console.log('wwww',listgame);
         response.end(JSON.stringify(listgame));
       }
     })
