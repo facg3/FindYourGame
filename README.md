@@ -1,48 +1,39 @@
-## Games Team
+## Games Finder
 
-Our can view our app using [Github pages] ( )
+View our app using [Heroku Pages] (fac-gamefinder.herokuapp.com)
 
 ## Who are we:
 -Hanan Qwaider.
 -Walaa Montaseb.
--Mohammud Mortaga.
+-Mohammed Mortaga.
 
 
 ## How we work:
- We worked in a single group on making a files  , connected with server , html file ,style ,  and XHR request and create an API key ,
+ We worked in a single group on making the required files, connected with server , styled the document, and assured that our functions work as they should be.
 
 ## Folders in our project:
 
-- Bublic : contains
+- Public. Contains the following:
 
         -logic.js: contains the used functions.
 
-        -style.css : To give our project a nice look.
+        -style.css: To give our project a nice look.
 
-        -index.html : To specify the structure of the app.
+        -index.html: To specify the structure of the app.
 
 
-- Backend : contains
+- src. Contains the following:
 
-          * src ...
+        -game.json: Contains over 50,000 games taken from the Steam API
+            
+        -handlers.js: Contains the functions used to handle the XHRequests
 
-            -game.json :
+        -router.js: To connect the server with the handling functions.
 
-            -handlers.js :
-
-            -router.js :
-
-            -server.js :
+        -server.js: To get the app launched.
 
 
 
 
 ## Our project:
-It's a website that helps you search for your favorite game  and give you a list of games that start with your characters that's you starts with .
-
-## How it was done:
--We created an API key to search for the music.
-
--We created a XHR request.
-
--We coded the functions that return an object of songs and an input field that takes a text and looks it up in that object.
+It's a website that helps you search for your favorite game and give you a list of games that start with the entered characters.
