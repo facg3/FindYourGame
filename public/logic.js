@@ -1,5 +1,4 @@
 
-
 function gamefinder(){
   url = "/getgame";
   var name= document.getElementById('gamename').value;
@@ -13,6 +12,7 @@ function gamefinder(){
         var option =document.createElement('option');
         option.setAttribute("value", response[i]);
         datalist.appendChild(option);
+
     }
 
 
