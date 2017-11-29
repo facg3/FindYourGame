@@ -8,7 +8,7 @@
   <div class="byline"><p>Find your favorite game.</p></div>
 
   <form action="/getgame" class="form-wrapper cf">
-      <input id ='gamename' type="text" placeholder="Search here..."  list = "gameslist" onkeydown="gamefinder()" value = "">
+      <input id ='gamename' type="text" placeholder="Search here..."  list = "gameslist" oninput="gamefinder()" value = "">
       <datalist id = "gameslist">
       </datalist>
       <button type="submit">Search</button>
