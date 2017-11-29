@@ -44,8 +44,6 @@ const getGame = (request, response) => {
         allGame += chunkOfData;
     });
     request.on('end', function () {
-    // console.log("ALLGAME " , allGame);
-    // response.writeHead(200);
     fs.readFile(path.join(__dirname , 'games.json'),function(err,files){
       if(err){
         console.log(err);
