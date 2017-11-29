@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+document.getElementById("gamename").addEventListener("change", gamefinder);
+>>>>>>> 12ce9c2c072c6c89d5fc67fca6e908e9641a8adc
 
 function gamefinder(){
   url = "/getgame";
