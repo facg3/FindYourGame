@@ -1,4 +1,4 @@
-
+document.getElementById("gamename").addEventListener("change", gamefinder);
 
 function gamefinder(){
   url = "/getgame";
